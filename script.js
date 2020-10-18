@@ -111,7 +111,7 @@ function generatePassword() {
   var passwordSpecial = confirm("Do you want to use special characters?");
   var passwordlower = confirm("Do you want to use lower case characters");
   var passwordUpper = confirm("Do you want to use uppercase characters");
-  var char = " "
+  var char = ""
 
   if (passwordNumeric == true){
     char = char + numericCharacters
